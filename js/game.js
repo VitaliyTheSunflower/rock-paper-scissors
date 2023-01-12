@@ -6,10 +6,13 @@ const computerSelection = getComputerChoice();
 function getComputerChoice() {
 if (choice <= 33 ) {
     return "Rock" 
+
 } else if (choice > 33 && choice <= 66){
     return "Paper"
+
 } else if (choice > 66 && choice <= 99) {
     return "Scissors"
+
 } else {
     console.log("something is wrong :(")
 }
@@ -55,12 +58,8 @@ function playRound(playerSelection , computerSelection) {
 console.log(playRound(playerSelection,computerSelection));
 
 function game(){
-    const playerSelection = prompt("Make your choice!").toLowerCase();
-    const computerSelection = getComputerChoice();
-    for( let i = 0; i < 5; i++) {
+    for(let i = 0; i < 5; i++){
         console.log(playRound(playerSelection,computerSelection));
     }
 }
-
-
 
