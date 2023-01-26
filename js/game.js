@@ -1,5 +1,5 @@
 const choice = Math.round(Math.random() * 100 );
-const playerSelection = prompt("Make your choice!").toLowerCase();
+//const playerSelection = prompt("Make your choice!").toLowerCase();
 const computerSelection = getComputerChoice();
 
 
