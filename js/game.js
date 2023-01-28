@@ -69,6 +69,7 @@ function announceWinner(){
     }
 }
 
+
 function restartGame(){
     userScore = 0;
     computerScore = 0;
