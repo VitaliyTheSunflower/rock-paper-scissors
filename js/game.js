@@ -63,9 +63,9 @@ function playRound(){
     
 function announceWinner(){
     if(userScore === 5){
-        alert(" Congrats !" + " You won !");
+        alert(" Congrats !" + " You reached 5 points. " + "You won !");
     } else if(computerScore === 5){
-        alert(" You lost. " + "Better luck next time !");
+        alert(" You lost. "+ "Computer reached 5 points. " + "Better luck next time !");
     }
 }
 
