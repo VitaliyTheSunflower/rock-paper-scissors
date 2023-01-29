@@ -21,21 +21,10 @@ body {
 
 button {
     background: none;
-    border: none;    
+    border: none;
+    font-size: 200px;   
 }
 
-#rock{
-    font-size: 205px;
-}
-
-#scissors{
-    font-size: 250px;
-}
-
-#paper{
-    font-size: 185px;
-    margin-bottom: 40px;  
-}
 
 .panel{
     display: flex;
