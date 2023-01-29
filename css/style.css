@@ -25,6 +25,15 @@ button {
     font-size: 200px;   
 }
 
+#paper{
+    font-size: 225px;
+}
+
+#scissors{
+    font-size: 175px;
+    margin-top: 25px;
+}
+
 
 .panel{
     display: flex;
