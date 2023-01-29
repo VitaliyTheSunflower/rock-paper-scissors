@@ -25,7 +25,9 @@ button {
     font-size: 200px;   
 }
 
-
+#paper{
+    font-size: 190px;
+}
 #scissors{
    margin-top: 25px;
 }
